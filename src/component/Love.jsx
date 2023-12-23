@@ -11,8 +11,8 @@ function Homepage({ onYesClick }) {
 
   return (
     <div id="homepage" className="flex flex-col items-center justify-center">
-      <div>
-        <p className="text-4xl font-bold font-mono text-pink-800">Do you want to be with me forever?</p>
+      <div className='flex container mx-auto text-center'>
+        <p className="text-4xl font-bold font-mono text-pink-800 container mx-auto">Do you want to be with me forever?</p>
       </div>
       <div>
         <img
@@ -21,7 +21,7 @@ function Homepage({ onYesClick }) {
           className="w-[300px] h-[300px]"
         />
       </div>
-      <div className="flex flex-row mt-10 container pl-[30%]">
+      <div className="flex flex-row mt-10 container pl-[15%] sm:pl-[30%] ">
         <div>
           <button 
             className="yes-button text-red-900 py-3 p-10 text-2xl bg-pink-400 rounded-xl font-medium hover:scale-110" 
@@ -56,7 +56,7 @@ function YesPage() {
       }}
       className="w-full h-screen flex flex-col items-center justify-center"
     >
-      <div>
+      <div className='flex container items-center justify-center '>
         <p className="text-6xl font-bold font-mono text-pink-900">YEEEYYYYY!!</p>
       </div>
       <div>
